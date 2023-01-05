@@ -1,8 +1,6 @@
 <template>
   <div id="nav">
     <TheHeader></TheHeader>
-    <router-link to="/">Home</router-link>
-    <router-link to="/about">About</router-link>
   </div>
   <router-view />
 </template>
@@ -18,6 +16,6 @@ export default {
 }; 
 </script>
 
-<style leng="css">
+<style leng="css" scoped>
 @import "./assets/css/general-style.css";
 </style>

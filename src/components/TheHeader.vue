@@ -29,15 +29,15 @@
             </li>
 
             <li>
-              <a href="#topics" class="navbar-link hover-1" data-nav-toggler>topics</a>
+              <a href="#topics" class="navbar-link hover-1" data-nav-toggler>Topics</a>
             </li>
 
             <li>
-              <a href="#featured" class="navbar-link hover-1" data-nav-toggler>featured</a>
+              <a href="#featured" class="navbar-link hover-1" data-nav-toggler>Featured</a>
             </li>
 
             <li>
-              <a href="#recent" class="navbar-link hover-1" data-nav-toggler>recent</a>
+              <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Recent</a>
             </li>
 
             <li>
@@ -65,27 +65,27 @@
             <ul class="link-list">
 
               <li>
-                <a href="#" class="navbar-bottom-link hover-1">Profile</a>
+                <a href="#" class="navbar-bottom-link hover-1">My Portfolio</a>
               </li>
 
               <li>
-                <a href="#" class="navbar-bottom-link hover-1">Articles Saved</a>
+                <a href="#" class="navbar-bottom-link hover-1">My Resume</a>
               </li>
 
               <li>
-                <a href="#" class="navbar-bottom-link hover-1">Add New Post</a>
+                <a href="#" class="navbar-bottom-link hover-1">GitHub</a>
               </li>
 
               <li>
-                <a href="#" class="navbar-bottom-link hover-1">My Likes</a>
+                <a href="#" class="navbar-bottom-link hover-1">LinkdIn</a>
               </li>
 
               <li>
-                <a href="#" class="navbar-bottom-link hover-1">Account Setting</a>
+                <a href="#" class="navbar-bottom-link hover-1">Twitter</a>
               </li>
 
               <li>
-                <a href="#" class="navbar-bottom-link hover-1">Sign Out</a>
+                <a href="#" class="navbar-bottom-link hover-1">YouTube</a>
               </li>
 
             </ul>
@@ -94,7 +94,7 @@
 
         </nav>
 
-        <a href="#" class="btn btn-primary">Dev.To</a>
+        <a href="#" class="btn btn-primary">Power By Dev.To</a>
 
         <button class="nav-open-btn" v-on:click="toggleClass()" aria-label="open menu" data-nav-toggler>
           <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>

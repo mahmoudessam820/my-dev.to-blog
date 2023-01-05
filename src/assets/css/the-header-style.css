@@ -4,7 +4,7 @@
     display: none;
 }
 
-.header {
+/* .header {
     position: fixed;
     top: 0;
     left: 0;
@@ -12,7 +12,7 @@
     padding-block: 24px;
     background-color: var(--bg-oxford-blue-2);
     z-index: 4;
-}
+} */
 
 .header.active {
     padding-block: 8px;
@@ -155,6 +155,8 @@
     }
 
     .header .btn { margin-inline-start: 0; }
+
+    .header .btn:hover { box-shadow: var(--shadow-2); }
 
     .navbar-link {
         color: var(--text-wild-blue-yonder);
