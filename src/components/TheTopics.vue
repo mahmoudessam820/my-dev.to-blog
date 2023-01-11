@@ -42,10 +42,36 @@
 
 
                   <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
-                    <img />
+                    <img src="../assets/images/slider-img/topic-2.png" width="507" height="618" loading="lazy"
+                      alt="Python" class="img-cover" />
                   </figure>
 
                   <div class="slider-content">
+
+                    <span class="slider-title">Python</span>
+                    <p class="slider-subtitle">Articles</p>
+
+                  </div>
+
+                </a>
+
+              </li>
+
+
+              <li class="slider-list">
+
+                <a href="#" class="slider-card">
+
+
+                  <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                    <img src="../assets/images/slider-img/topic-3.png" width="507" height="618" loading="lazy"
+                      alt="cars" class="img-cover" />
+                  </figure>
+
+                  <div class="slider-content">
+
+                    <span class="slider-title">Cars</span>
+                    <p class="slider-subtitle">Articles</p>
 
                   </div>
 
@@ -71,5 +97,5 @@ export default {
 </script>
 
 <style scoped>
-
+@import "../assets/css/the-slider-style.css";
 </style>
