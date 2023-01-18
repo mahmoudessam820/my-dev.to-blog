@@ -26,7 +26,8 @@
     height: 32px;
     display: grid;
     place-items: center;
-    background: var(--radius-circle);
+    background: var(--bg-prussian-blue); 
+    border-radius: var(--radius-circle);
     color: var(--white);
 }
 
@@ -55,7 +56,6 @@
     position: relative;
 }
 
-
 .slider-card::before {
     content: "";
     position: absolute;
@@ -73,18 +73,18 @@
 
 .slider-content {
     position: absolute;
-    bottom: 150px;
+    bottom: 15px;
     left: 15px;
 }
 
 .slider-title {
-    color: var(--text-columbis-blue);
+    color: var(--text-columbia-blue);
     font-weight: var(--weight-bold);
     margin-block-end: 5px;
     transition: var(--transition-1);
 }
 
-.silder-card:is(:hover, :focus-visible) .slider-title {
+.slider-card:is(:hover, :focus-visible) .slider-title {
     color: var(--text-carolina-blue);
 }
 
@@ -95,6 +95,39 @@
 
 
 /*----------- Start Query -----------*/
+
+/* responsive for large than (575) screen  */
+
+@media(min-width: 575px) {
+
+    .topics .section-title {
+        font-size: 2rem;
+    }
+
+    .silder {
+        --slider-items: 3;
+    }
+
+    .slider-item {
+        min-width: calc(33.33% - 13.33px);
+    }
+
+}
+
+
+/* responsive for large than (992px) screen  */
+
+@media (min-width: 992px) {
+
+    .topic-card {
+        display: grid;
+        grid-template-columns: 0.3fr 1fr;
+        align-items: center;
+        gap: 20px;
+    }
+
+}
+
 
 /*----------- End Query -----------*/
 

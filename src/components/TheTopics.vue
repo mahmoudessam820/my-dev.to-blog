@@ -5,7 +5,6 @@
 
         <div class="card topic-card">
 
-
           <div class="card-content">
 
 
@@ -33,10 +32,11 @@
 
 
           <div class="slider" data-slider>
+
             <ul class="slider-list" data-slider-container>
 
 
-              <li class="slider-list">
+              <li class="slider-item">
 
                 <a href="#" class="slider-card">
 
@@ -58,7 +58,7 @@
               </li>
 
 
-              <li class="slider-list">
+              <li class="slider-item">
 
                 <a href="#" class="slider-card">
 
@@ -70,7 +70,73 @@
 
                   <div class="slider-content">
 
-                    <span class="slider-title">Cars</span>
+                    <span class="slider-title">Database</span>
+                    <p class="slider-subtitle">Articles</p>
+
+                  </div>
+
+                </a>
+
+              </li>
+
+
+              <li class="slider-item">
+
+                <a href="#" class="slider-card">
+
+
+                  <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                    <img src="../assets/images/slider-img/topic-4.png" width="507" height="618" loading="lazy"
+                      alt="cars" class="img-cover" />
+                  </figure>
+
+                  <div class="slider-content">
+
+                    <span class="slider-title">Web</span>
+                    <p class="slider-subtitle">Articles</p>
+
+                  </div>
+
+                </a>
+
+              </li>
+
+
+              <li class="slider-item">
+
+                <a href="#" class="slider-card">
+
+
+                  <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                    <img src="../assets/images/slider-img/topic-5.png" width="507" height="618" loading="lazy"
+                      alt="cars" class="img-cover" />
+                  </figure>
+
+                  <div class="slider-content">
+
+                    <span class="slider-title">Tasks</span>
+                    <p class="slider-subtitle">Articles</p>
+
+                  </div>
+
+                </a>
+
+              </li>
+
+
+              <li class="slider-itme">
+
+                <a href="#" class="slider-card">
+
+
+                  <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                    <img src="../assets/images/slider-img/topic-1.png" width="507" height="618" loading="lazy"
+                      alt="cars" class="img-cover" />
+                  </figure>
+
+                  <div class="slider-content">
+
+                    <span class="slider-title">Networks</span>
                     <p class="slider-subtitle">Articles</p>
 
                   </div>
@@ -80,8 +146,8 @@
               </li>
 
             </ul>
-          </div>
 
+          </div>
 
         </div>
 
@@ -97,5 +163,5 @@ export default {
 </script>
 
 <style scoped>
-@import "../assets/css/the-slider-style.css";
+@import "../assets/css/the-topics-style.css";
 </style>
